@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.menu-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-item h3 {
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+
+/* Estilos para el Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.footer h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social-media a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.social-media img {
+    width: 100%;
+    height: auto;
+    filter: brightness(1) invert(0); /* Blanco sobre fondo oscuro */
+    transition: transform 0.3s;
+}
+
+.social-media img:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+.image-float3 {
+    float: left;
+    margin-right: 10px; /* Espaciado entre las imágenes */
+    width: 100px;
+    height: auto;
+}
+
+
+
+.image-float3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    gap: 57px; /* Espacio entre las imágenes */
+    padding: 9px;
+}
+
+.image-float3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+.colorde-eso {
+    color: aqua;
+}
+
+
+
+
+
+.image-float2 {
+    float: left;
+    margin-right: 10px; /* Espaciado entre las imágenes */
+    width: 100px;
+    height: auto;
+}
+
+
+
+.image-float2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Tres columnas */
+    gap: 57px; /* Espacio entre las imágenes */
+    padding: 9px;
+}
+
+.image-float2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
